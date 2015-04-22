@@ -90,10 +90,10 @@ public class SimpleShellN
             else
             {*/
             String[] lineSplit = commandLine.split(" ");
-            if(lineSplit[0].equalsIgnoreCase("cat"))
+            /*if(lineSplit[0].equalsIgnoreCase("cat"))
             {
                 commandHistory.add(commandLine);
-            }
+            }*/
             if(lineSplit[0].equalsIgnoreCase("cd"))
             {
                 commandHistory.add(commandLine);
